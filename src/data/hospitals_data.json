@@ -1,0 +1,1946 @@
+[
+    {
+        "Hospital Name":"All India Institute of Medical Sciences (AIIMS)",
+        "Latitude":28.5672,
+        "Longitude":77.21,
+        "Address":"Sri Aurobindo Marg, Ansari Nagar, New Delhi 110029"
+    },
+    {
+        "Hospital Name":"Safdarjung Hospital",
+        "Latitude":28.5684,
+        "Longitude":77.2064,
+        "Address":"Ansari Nagar East, Near AIIMS Metro Station, New Delhi 110029"
+    },
+    {
+        "Hospital Name":"Dr. Ram Manohar Lohia (RML) Hospital",
+        "Latitude":28.6262,
+        "Longitude":77.2001,
+        "Address":"Baba Kharak Singh Marg, Connaught Place, New Delhi 110001"
+    },
+    {
+        "Hospital Name":"Lady Hardinge Medical College & Hospital",
+        "Latitude":28.6341,
+        "Longitude":77.2142,
+        "Address":"Connaught Place, New Delhi 110001"
+    },
+    {
+        "Hospital Name":"Kalawati Saran Children's Hospital",
+        "Latitude":28.6338,
+        "Longitude":77.2135,
+        "Address":"Marg, Connaught Place, New Delhi 110001"
+    },
+    {
+        "Hospital Name":"Indraprastha Apollo Hospitals",
+        "Latitude":28.5393,
+        "Longitude":77.2847,
+        "Address":"Mathura Rd, Sarita Vihar, New Delhi 110076"
+    },
+    {
+        "Hospital Name":"Max Super Speciality Hospital, Saket",
+        "Latitude":28.5273,
+        "Longitude":77.2119,
+        "Address":"1-2, Press Enclave Marg, Saket Institutional Area, New Delhi 110017"
+    },
+    {
+        "Hospital Name":"Max Smart Super Speciality Hospital, Saket",
+        "Latitude":28.5265,
+        "Longitude":77.2125,
+        "Address":"Press Enclave Marg, Saket Institutional Area, New Delhi 110017"
+    },
+    {
+        "Hospital Name":"Fortis Escorts Heart Institute",
+        "Latitude":28.5583,
+        "Longitude":77.2764,
+        "Address":"Okhla Road, Sukhdev Vihar, New Delhi 110025"
+    },
+    {
+        "Hospital Name":"Fortis Flt. Lt. Rajan Dhall Hospital",
+        "Latitude":28.5312,
+        "Longitude":77.1614,
+        "Address":"Sector B, Pocket 1, Vasant Kunj, New Delhi 110070"
+    },
+    {
+        "Hospital Name":"Institute of Liver and Biliary Sciences (ILBS)",
+        "Latitude":28.516,
+        "Longitude":77.1517,
+        "Address":"D1, Vasant Kunj Road, New Delhi 110070"
+    },
+    {
+        "Hospital Name":"Indian Spinal Injuries Centre",
+        "Latitude":28.5358,
+        "Longitude":77.1491,
+        "Address":"Sector C, Vasant Kunj Marg, New Delhi 110070"
+    },
+    {
+        "Hospital Name":"Sitaram Bhartia Institute of Science and Research",
+        "Latitude":28.5414,
+        "Longitude":77.1866,
+        "Address":"B-16, Qutub Institutional Area, New Delhi 110016"
+    },
+    {
+        "Hospital Name":"Moolchand Medcity",
+        "Latitude":28.5651,
+        "Longitude":77.2345,
+        "Address":"Lajpat Nagar III, Near Moolchand Metro Station, New Delhi 110024"
+    },
+    {
+        "Hospital Name":"Batra Hospital & Medical Research Centre",
+        "Latitude":28.5135,
+        "Longitude":77.2464,
+        "Address":"1, Mehrauli - Badarpur Rd, Tughlakabad Institutional Area, New Delhi 110062"
+    },
+    {
+        "Hospital Name":"Holy Family Hospital",
+        "Latitude":28.5604,
+        "Longitude":77.2763,
+        "Address":"Okhla Road, Jamia Nagar, New Delhi 110025"
+    },
+    {
+        "Hospital Name":"PSRI Hospital",
+        "Latitude":28.5303,
+        "Longitude":77.2201,
+        "Address":"Press Enclave Marg, Sheikh Sarai Phase II, New Delhi 110017"
+    },
+    {
+        "Hospital Name":"Vimhans Nayati Super Speciality Hospital",
+        "Latitude":28.567,
+        "Longitude":77.2483,
+        "Address":"1, Institutional Area, Nehru Nagar, New Delhi 110065"
+    },
+    {
+        "Hospital Name":"Primus Super Speciality Hospital",
+        "Latitude":28.591,
+        "Longitude":77.1895,
+        "Address":"Chandragupta Marg, Chanakyapuri, New Delhi 110021"
+    },
+    {
+        "Hospital Name":"Charak Palika Hospital",
+        "Latitude":28.5794,
+        "Longitude":77.1965,
+        "Address":"Moti Bagh, New Delhi 110021"
+    },
+    {
+        "Hospital Name":"National Institute of Tuberculosis and Respiratory Diseases",
+        "Latitude":28.5224,
+        "Longitude":77.2045,
+        "Address":"Sri Aurobindo Marg, Mehrauli, New Delhi 110030"
+    },
+    {
+        "Hospital Name":"Venkateshwar Hospital",
+        "Latitude":28.5866,
+        "Longitude":77.0345,
+        "Address":"Sector 18A Rd, Sector 18, Dwarka, New Delhi 110075"
+    },
+    {
+        "Hospital Name":"Manipal Hospital Dwarka",
+        "Latitude":28.5855,
+        "Longitude":77.0163,
+        "Address":"Sector 6 Adjoining MTNL building, Dwarka, New Delhi 110075"
+    },
+    {
+        "Hospital Name":"Aakash Healthcare Super Speciality Hospital",
+        "Latitude":28.5912,
+        "Longitude":77.027,
+        "Address":"Hospital Plot, Road No. 201, Sector 3, Dwarka, New Delhi 110075"
+    },
+    {
+        "Hospital Name":"Mata Chanan Devi Hospital",
+        "Latitude":28.6186,
+        "Longitude":77.0863,
+        "Address":"C-1, Janakpuri, New Delhi 110058"
+    },
+    {
+        "Hospital Name":"Deen Dayal Upadhyay (DDU) Hospital",
+        "Latitude":28.6276,
+        "Longitude":77.1051,
+        "Address":"Clock Tower, Hari Nagar, New Delhi 110064"
+    },
+    {
+        "Hospital Name":"Sri Balaji Action Medical Institute",
+        "Latitude":28.674,
+        "Longitude":77.1075,
+        "Address":"FC-34, A-4, Paschim Vihar, New Delhi 110063"
+    },
+    {
+        "Hospital Name":"Action Cancer Hospital",
+        "Latitude":28.6738,
+        "Longitude":77.1084,
+        "Address":"A-4, Paschim Vihar, New Delhi 110063"
+    },
+    {
+        "Hospital Name":"Sehgal Path Lab & Hospital",
+        "Latitude":28.6812,
+        "Longitude":77.1215,
+        "Address":"B-362, Outer Ring Rd, Meera Bagh, Paschim Vihar, New Delhi 110063"
+    },
+    {
+        "Hospital Name":"Maharaja Agrasen Hospital, Punjabi Bagh",
+        "Latitude":28.6675,
+        "Longitude":77.1264,
+        "Address":"Rohtak Rd, West Punjabi Bagh, New Delhi 110026"
+    },
+    {
+        "Hospital Name":"Acharya Shree Bhikshu Hospital",
+        "Latitude":28.6548,
+        "Longitude":77.1396,
+        "Address":"Moti Nagar, New Delhi 110015"
+    },
+    {
+        "Hospital Name":"Guru Gobind Singh Government Hospital",
+        "Latitude":28.6491,
+        "Longitude":77.1123,
+        "Address":"Raghubir Nagar, Rajouri Garden, New Delhi 110027"
+    },
+    {
+        "Hospital Name":"Sanjay Gandhi Memorial Hospital",
+        "Latitude":28.6943,
+        "Longitude":77.0812,
+        "Address":"SGMH Campus, Mangolpuri, New Delhi 110083"
+    },
+    {
+        "Hospital Name":"Bhagwan Mahavir Hospital",
+        "Latitude":28.6821,
+        "Longitude":77.1189,
+        "Address":"H-4\/5, Guru Harkishan Marg, Pitampura, New Delhi 110034"
+    },
+    {
+        "Hospital Name":"Sir Ganga Ram Hospital",
+        "Latitude":28.6385,
+        "Longitude":77.1895,
+        "Address":"Sir Ganga Ram Hospital Marg, Old Rajinder Nagar, New Delhi 110060"
+    },
+    {
+        "Hospital Name":"BLK-Max Super Speciality Hospital",
+        "Latitude":28.6436,
+        "Longitude":77.1804,
+        "Address":"Pusa Rd, Radha Soami Satsang, Rajendra Place, New Delhi 110005"
+    },
+    {
+        "Hospital Name":"Lok Nayak Jai Prakash Narayan (LNJP) Hospital",
+        "Latitude":28.6382,
+        "Longitude":77.2405,
+        "Address":"Jawaharlal Nehru Marg, Delhi Gate, New Delhi 110002"
+    },
+    {
+        "Hospital Name":"Govind Ballabh Pant Hospital (G.B. Pant)",
+        "Latitude":28.6375,
+        "Longitude":77.2415,
+        "Address":"Jawaharlal Nehru Marg, Asaf Ali Rd, New Delhi 110002"
+    },
+    {
+        "Hospital Name":"Guru Teg Bahadur (GTB) Hospital",
+        "Latitude":28.6834,
+        "Longitude":77.3112,
+        "Address":"Shahdara, Dilshad Garden, New Delhi 110095"
+    },
+    {
+        "Hospital Name":"St. Stephen's Hospital",
+        "Latitude":28.6669,
+        "Longitude":77.2145,
+        "Address":"St. Stephen's Hospital Marg, Tis Hazari, New Delhi 110054"
+    },
+    {
+        "Hospital Name":"Tirath Ram Shah Hospital",
+        "Latitude":28.6732,
+        "Longitude":77.2215,
+        "Address":"2A, Battery Ln, Rajpur Road, Civil Lines, New Delhi 110054"
+    },
+    {
+        "Hospital Name":"Sant Parmanand Hospital",
+        "Latitude":28.6644,
+        "Longitude":77.228,
+        "Address":"18, Sham Nath Marg, Civil Lines, New Delhi 110054"
+    },
+    {
+        "Hospital Name":"Aruna Asaf Ali Government Hospital",
+        "Latitude":28.6712,
+        "Longitude":77.2241,
+        "Address":"4, Rajpur Road, Civil Lines, New Delhi 110054"
+    },
+    {
+        "Hospital Name":"Sushruta Trauma Centre",
+        "Latitude":28.6725,
+        "Longitude":77.2255,
+        "Address":"9, Metcalfe Road, Civil Lines, New Delhi 110054"
+    },
+    {
+        "Hospital Name":"Fortis Hospital, Shalimar Bagh",
+        "Latitude":28.7186,
+        "Longitude":77.1652,
+        "Address":"A Block, Shalimar Bagh, New Delhi 110088"
+    },
+    {
+        "Hospital Name":"Max Super Speciality Hospital, Shalimar Bagh",
+        "Latitude":28.7239,
+        "Longitude":77.161,
+        "Address":"C and D Block, Shalimar Place Site, Shalimar Bagh, New Delhi 110088"
+    },
+    {
+        "Hospital Name":"Saroj Super Speciality Hospital",
+        "Latitude":28.7056,
+        "Longitude":77.126,
+        "Address":"Madhuban Chowk, Sector 14, Rohini, New Delhi 110085"
+    },
+    {
+        "Hospital Name":"Dr. Baba Saheb Ambedkar Hospital",
+        "Latitude":28.7242,
+        "Longitude":77.1147,
+        "Address":"Sector 6, Rohini, New Delhi 110085"
+    },
+    {
+        "Hospital Name":"Jaipur Golden Hospital",
+        "Latitude":28.7011,
+        "Longitude":77.1195,
+        "Address":"Institutional Area, Sector 3, Rohini, New Delhi 110085"
+    },
+    {
+        "Hospital Name":"Bhagwati Hospital, Rohini",
+        "Latitude":28.7155,
+        "Longitude":77.1065,
+        "Address":"CS\/OCF-6, Sector 13, Rohini, New Delhi 110085"
+    },
+    {
+        "Hospital Name":"Esi Hospital, Rohini",
+        "Latitude":28.7112,
+        "Longitude":77.1218,
+        "Address":"Sector 15, Rohini, New Delhi 110085"
+    },
+    {
+        "Hospital Name":"Deep Chand Bandhu Hospital",
+        "Latitude":28.6912,
+        "Longitude":77.1745,
+        "Address":"Kokiwala Bagh, Ashok Vihar Phase IV, New Delhi 110052"
+    },
+    {
+        "Hospital Name":"Satyawadi Raja Harish Chander Hospital",
+        "Latitude":28.8412,
+        "Longitude":77.1124,
+        "Address":"Plot No. 30, Narela, New Delhi 110040"
+    },
+    {
+        "Hospital Name":"Max Super Speciality Hospital, Patparganj",
+        "Latitude":28.6294,
+        "Longitude":77.3039,
+        "Address":"108A, Indraprastha Extension, Patparganj, New Delhi 110092"
+    },
+    {
+        "Hospital Name":"Dharamshila Narayana Superspeciality Hospital",
+        "Latitude":28.6042,
+        "Longitude":77.3175,
+        "Address":"Vasundhara Enclave, Near New Ashok Nagar, New Delhi 110096"
+    },
+    {
+        "Hospital Name":"Rajiv Gandhi Super Speciality Hospital",
+        "Latitude":28.6865,
+        "Longitude":77.3197,
+        "Address":"Taharpur Rd, Tahirpur, Dilshad Garden, New Delhi 110093"
+    },
+    {
+        "Hospital Name":"Delhi State Cancer Institute",
+        "Latitude":28.6866,
+        "Longitude":77.3195,
+        "Address":"Dilshad Garden, New Delhi 110093"
+    },
+    {
+        "Hospital Name":"Chacha Nehru Bal Chikitsalaya",
+        "Latitude":28.6542,
+        "Longitude":77.2654,
+        "Address":"Geeta Colony, New Delhi 110031"
+    },
+    {
+        "Hospital Name":"Lal Bahadur Shastri Hospital",
+        "Latitude":28.6189,
+        "Longitude":77.3112,
+        "Address":"Khichripur, Kalyanpuri, New Delhi 110091"
+    },
+    {
+        "Hospital Name":"Jag Pravesh Chandra Hospital",
+        "Latitude":28.6792,
+        "Longitude":77.2685,
+        "Address":"Shastri Park, New Delhi 110053"
+    },
+    {
+        "Hospital Name":"Metro Hospital & Cancer Institute, Preet Vihar",
+        "Latitude":28.6415,
+        "Longitude":77.2942,
+        "Address":"21, Community Centre, Preet Vihar, New Delhi 110092"
+    },
+    {
+        "Hospital Name":"Khandelwal Hospital & Urology Center",
+        "Latitude":28.6479,
+        "Longitude":77.2882,
+        "Address":"B-16, East Krishna Nagar, Delhi 110051"
+    },
+    {
+        "Hospital Name":"Makkar Medical Centre",
+        "Latitude":28.6432,
+        "Longitude":77.2845,
+        "Address":"A-1, Priyadarshini Vihar, New Delhi 110092"
+    },
+    {
+        "Hospital Name":"Medanta - The Medicity",
+        "Latitude":28.4385,
+        "Longitude":77.0425,
+        "Address":"CH Baktawar Singh Rd, Sector 38, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Fortis Memorial Research Institute (FMRI)",
+        "Latitude":28.4578,
+        "Longitude":77.0734,
+        "Address":"Sector 44, Opposite Millennium City Centre Metro, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Artemis Hospital",
+        "Latitude":28.4316,
+        "Longitude":77.0694,
+        "Address":"Sector 51, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Max Hospital, Gurugram",
+        "Latitude":28.4611,
+        "Longitude":77.0863,
+        "Address":"B Block, Sushant Lok 1, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Paras Hospitals",
+        "Latitude":28.4485,
+        "Longitude":77.0945,
+        "Address":"C-1, Sushant Lok Phase-I, Sector 43, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"W Pratiksha Hospital",
+        "Latitude":28.419,
+        "Longitude":77.1001,
+        "Address":"Golf Course Ext Rd, Sector 56, Gurugram, Haryana 122011"
+    },
+    {
+        "Hospital Name":"CK Birla Hospital, Gurugram",
+        "Latitude":28.4285,
+        "Longitude":77.062,
+        "Address":"Block J, Mayfield Garden, Sector 51, Gurugram, Haryana 122018"
+    },
+    {
+        "Hospital Name":"Narayana Superspeciality Hospital, Gurugram",
+        "Latitude":28.4851,
+        "Longitude":77.0934,
+        "Address":"Plot 3201, Block - V, DLF Phase 3, Sector 24, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Park Hospital, Gurugram",
+        "Latitude":28.4239,
+        "Longitude":77.0396,
+        "Address":"Q-Block, South City II, Sector 47, Gurugram, Haryana 122018"
+    },
+    {
+        "Hospital Name":"Manipal Hospital, Gurugram",
+        "Latitude":28.4984,
+        "Longitude":77.0315,
+        "Address":"Block F, Palam Vihar, Gurugram, Haryana 122017"
+    },
+    {
+        "Hospital Name":"Signature Advanced Super Speciality Hospital",
+        "Latitude":28.4112,
+        "Longitude":77.0425,
+        "Address":"Sector 37D, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Marengo Asia Hospital, Gurugram",
+        "Latitude":28.4615,
+        "Longitude":77.0321,
+        "Address":"Sector 16, Near Rajiv Chowk, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Sanjeevani Hospital",
+        "Latitude":28.4712,
+        "Longitude":77.0498,
+        "Address":"New Railway Road, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Cloudnine Hospital, Gurugram Sector 47",
+        "Latitude":28.4289,
+        "Longitude":77.0442,
+        "Address":"Plot No. 1, Sector 47, Sohna Road, Gurugram, Haryana 122018"
+    },
+    {
+        "Hospital Name":"Columbia Asia Hospital (Old Name) \/ Manipal Palam Vihar",
+        "Latitude":28.5021,
+        "Longitude":77.0385,
+        "Address":"Ansal Plaza Commercial Complex, Palam Vihar, Gurugram 122017"
+    },
+    {
+        "Hospital Name":"Fortis Hospital, Noida",
+        "Latitude":28.6186,
+        "Longitude":77.3725,
+        "Address":"B-22, Sector 62, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Kailash Hospital & Heart Institute",
+        "Latitude":28.575,
+        "Longitude":77.3323,
+        "Address":"H-33, Sector 27, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Jaypee Hospital",
+        "Latitude":28.5146,
+        "Longitude":77.3637,
+        "Address":"Sector 128, Noida-Greater Noida Expressway, Noida, Uttar Pradesh 201304"
+    },
+    {
+        "Hospital Name":"Apollo Hospitals, Noida",
+        "Latitude":28.5831,
+        "Longitude":77.3312,
+        "Address":"E 2, Sector 26, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Max Multi Speciality Centre, Noida",
+        "Latitude":28.5802,
+        "Longitude":77.3243,
+        "Address":"A-364, Sector 19, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Felix Hospital",
+        "Latitude":28.5034,
+        "Longitude":77.4093,
+        "Address":"Sector 137, Noida, Uttar Pradesh 201305"
+    },
+    {
+        "Hospital Name":"Yatharth Super Speciality Hospital, Noida",
+        "Latitude":28.5303,
+        "Longitude":77.3872,
+        "Address":"Sector 110, Noida, Uttar Pradesh 201304"
+    },
+    {
+        "Hospital Name":"Metro Hospital & Heart Institute, Noida",
+        "Latitude":28.5985,
+        "Longitude":77.3313,
+        "Address":"X-1, Sector 11, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Prakash Hospital",
+        "Latitude":28.5772,
+        "Longitude":77.3391,
+        "Address":"D-12, 12A, Sector 33, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Neo Hospital",
+        "Latitude":28.5645,
+        "Longitude":77.3612,
+        "Address":"D-170, Sector 50, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Cloudnine Hospital, Noida",
+        "Latitude":28.5692,
+        "Longitude":77.3598,
+        "Address":"Plot No. C-9, Sector 51, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Motherhood Hospital, Noida",
+        "Latitude":28.5582,
+        "Longitude":77.3711,
+        "Address":"B-A\/1, Sector 48, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Sharda Hospital",
+        "Latitude":28.4735,
+        "Longitude":77.4883,
+        "Address":"Plot No. 32-34, Knowledge Park III, Greater Noida, Uttar Pradesh 201306"
+    },
+    {
+        "Hospital Name":"Yatharth Super Speciality Hospital, Greater Noida",
+        "Latitude":28.4716,
+        "Longitude":77.4925,
+        "Address":"Omega 1, Greater Noida, Uttar Pradesh 201308"
+    },
+    {
+        "Hospital Name":"Navin Hospital, Greater Noida",
+        "Latitude":28.4705,
+        "Longitude":77.5113,
+        "Address":"Alpha II, Greater Noida, Uttar Pradesh 201308"
+    },
+    {
+        "Hospital Name":"Bakson Homoeopathic Medical College & Hospital",
+        "Latitude":28.4812,
+        "Longitude":77.4912,
+        "Address":"Plot No. 36B, Knowledge Park III, Greater Noida, Uttar Pradesh 201306"
+    },
+    {
+        "Hospital Name":"Government Institute of Medical Sciences (GIMS)",
+        "Latitude":28.4515,
+        "Longitude":77.5312,
+        "Address":"Kasna, Greater Noida, Uttar Pradesh 201310"
+    },
+    {
+        "Hospital Name":"Amrita Hospital, Faridabad",
+        "Latitude":28.4116,
+        "Longitude":77.3214,
+        "Address":"Mata Amritanandamayi Marg, Sector 88, Faridabad, Haryana 121002"
+    },
+    {
+        "Hospital Name":"Asian Institute of Medical Sciences",
+        "Latitude":28.4024,
+        "Longitude":77.2974,
+        "Address":"Badkal Flyover Road, Sector 21A, Faridabad, Haryana 121001"
+    },
+    {
+        "Hospital Name":"Fortis Escorts Hospital, Faridabad",
+        "Latitude":28.3912,
+        "Longitude":77.3082,
+        "Address":"Neelam Bata Rd, New Industrial Township, Faridabad, Haryana 121001"
+    },
+    {
+        "Hospital Name":"Metro Heart Institute with Multispecialty, Faridabad",
+        "Latitude":28.4103,
+        "Longitude":77.3195,
+        "Address":"Sector 16A, Faridabad, Haryana 121002"
+    },
+    {
+        "Hospital Name":"Accord Superspeciality Hospital",
+        "Latitude":28.4012,
+        "Longitude":77.3415,
+        "Address":"Sector 86, Faridabad, Haryana 121002"
+    },
+    {
+        "Hospital Name":"QRG Super Speciality Hospital \/ Marengo Asia",
+        "Latitude":28.4069,
+        "Longitude":77.3168,
+        "Address":"Plot No. 1, Sector 16, Faridabad, Haryana 121002"
+    },
+    {
+        "Hospital Name":"Sarvodaya Hospital & Research Centre, Sector 8",
+        "Latitude":28.3758,
+        "Longitude":77.3175,
+        "Address":"YMCA Rd, Sector 8, Faridabad, Haryana 121006"
+    },
+    {
+        "Hospital Name":"Sarvodaya Hospital, Sector 19",
+        "Latitude":28.4215,
+        "Longitude":77.3092,
+        "Address":"Sector 19, Faridabad, Haryana 121002"
+    },
+    {
+        "Hospital Name":"Park Hospital, Faridabad",
+        "Latitude":28.3845,
+        "Longitude":77.3112,
+        "Address":"Sector 10, Faridabad, Haryana 121006"
+    },
+    {
+        "Hospital Name":"Central Hospital",
+        "Latitude":28.3995,
+        "Longitude":77.3142,
+        "Address":"Sector 15A, Faridabad, Haryana 121007"
+    },
+    {
+        "Hospital Name":"Max Super Speciality Hospital, Vaishali",
+        "Latitude":28.6436,
+        "Longitude":77.3375,
+        "Address":"W-3, Sector-1, Vaishali, Ghaziabad, Uttar Pradesh 201012"
+    },
+    {
+        "Hospital Name":"Yashoda Super Speciality Hospital, Kaushambi",
+        "Latitude":28.6465,
+        "Longitude":77.3235,
+        "Address":"H1, Kaushambi, Near Anand Vihar ISBT, Ghaziabad, Uttar Pradesh 201010"
+    },
+    {
+        "Hospital Name":"Yashoda Hospital & Research Centre, Nehru Nagar",
+        "Latitude":28.6656,
+        "Longitude":77.4243,
+        "Address":"Nehru Nagar, Near Old Bus Stand, Ghaziabad, Uttar Pradesh 201001"
+    },
+    {
+        "Hospital Name":"Manipal Hospital, Ghaziabad",
+        "Latitude":28.6369,
+        "Longitude":77.4475,
+        "Address":"NH-24, Hapur Bypass Road, Ghaziabad, Uttar Pradesh 201002"
+    },
+    {
+        "Hospital Name":"Shanti Gopal Hospital",
+        "Latitude":28.6373,
+        "Longitude":77.3626,
+        "Address":"Ahinsa Khand 2, Indirapuram, Ghaziabad, Uttar Pradesh 201014"
+    },
+    {
+        "Hospital Name":"Sarvodaya Hospital, Ghaziabad",
+        "Latitude":28.6672,
+        "Longitude":77.4426,
+        "Address":"Kavi Nagar Industrial Area, Sector 19, Ghaziabad, Uttar Pradesh 201002"
+    },
+    {
+        "Hospital Name":"AmiCare Hospital",
+        "Latitude":28.6512,
+        "Longitude":77.3512,
+        "Address":"Plot No. 44, Sector 4, Vaishali, Ghaziabad, Uttar Pradesh 201012"
+    },
+    {
+        "Hospital Name":"Narendra Mohan Hospital",
+        "Latitude":28.6912,
+        "Longitude":77.3912,
+        "Address":"Mohan Nagar, Ghaziabad, Uttar Pradesh 201007"
+    },
+    {
+        "Hospital Name":"Flores Hospital",
+        "Latitude":28.6212,
+        "Longitude":77.3789,
+        "Address":"Plot No. 3, Sector 4, Vaishali, Ghaziabad, Uttar Pradesh 201012"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 4",
+        "Latitude":28.45,
+        "Longitude":77.05,
+        "Address":"Plot No. 16, Sector 4, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 4",
+        "Latitude":28.441,
+        "Longitude":77.061,
+        "Address":"Main Market Road, Sector 4, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 10",
+        "Latitude":28.454,
+        "Longitude":77.053,
+        "Address":"Plot No. 22, Sector 10, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 10",
+        "Latitude":28.4451,
+        "Longitude":77.0638,
+        "Address":"Main Market Road, Sector 10, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 14",
+        "Latitude":28.458,
+        "Longitude":77.056,
+        "Address":"Plot No. 26, Sector 14, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 14",
+        "Latitude":28.4492,
+        "Longitude":77.0666,
+        "Address":"Main Market Road, Sector 14, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 15",
+        "Latitude":28.462,
+        "Longitude":77.059,
+        "Address":"Plot No. 27, Sector 15, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 15",
+        "Latitude":28.4533,
+        "Longitude":77.0694,
+        "Address":"Main Market Road, Sector 15, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 23",
+        "Latitude":28.466,
+        "Longitude":77.062,
+        "Address":"Plot No. 35, Sector 23, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 23",
+        "Latitude":28.4574,
+        "Longitude":77.0722,
+        "Address":"Main Market Road, Sector 23, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 31",
+        "Latitude":28.47,
+        "Longitude":77.065,
+        "Address":"Plot No. 43, Sector 31, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 31",
+        "Latitude":28.4615,
+        "Longitude":77.075,
+        "Address":"Main Market Road, Sector 31, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 43",
+        "Latitude":28.474,
+        "Longitude":77.068,
+        "Address":"Plot No. 55, Sector 43, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 43",
+        "Latitude":28.4656,
+        "Longitude":77.0778,
+        "Address":"Main Market Road, Sector 43, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 45",
+        "Latitude":28.478,
+        "Longitude":77.071,
+        "Address":"Plot No. 57, Sector 45, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 45",
+        "Latitude":28.4697,
+        "Longitude":77.0806,
+        "Address":"Main Market Road, Sector 45, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 46",
+        "Latitude":28.482,
+        "Longitude":77.074,
+        "Address":"Plot No. 58, Sector 46, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 46",
+        "Latitude":28.4738,
+        "Longitude":77.0834,
+        "Address":"Main Market Road, Sector 46, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 52",
+        "Latitude":28.486,
+        "Longitude":77.077,
+        "Address":"Plot No. 64, Sector 52, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 52",
+        "Latitude":28.4779,
+        "Longitude":77.0862,
+        "Address":"Main Market Road, Sector 52, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 53",
+        "Latitude":28.49,
+        "Longitude":77.08,
+        "Address":"Plot No. 65, Sector 53, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 53",
+        "Latitude":28.482,
+        "Longitude":77.089,
+        "Address":"Main Market Road, Sector 53, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 56",
+        "Latitude":28.494,
+        "Longitude":77.083,
+        "Address":"Plot No. 68, Sector 56, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 56",
+        "Latitude":28.4861,
+        "Longitude":77.0918,
+        "Address":"Main Market Road, Sector 56, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 57",
+        "Latitude":28.498,
+        "Longitude":77.086,
+        "Address":"Plot No. 69, Sector 57, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 57",
+        "Latitude":28.4902,
+        "Longitude":77.0946,
+        "Address":"Main Market Road, Sector 57, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 65",
+        "Latitude":28.502,
+        "Longitude":77.089,
+        "Address":"Plot No. 77, Sector 65, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 65",
+        "Latitude":28.4943,
+        "Longitude":77.0974,
+        "Address":"Main Market Road, Sector 65, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 82",
+        "Latitude":28.506,
+        "Longitude":77.092,
+        "Address":"Plot No. 94, Sector 82, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 82",
+        "Latitude":28.4984,
+        "Longitude":77.1002,
+        "Address":"Main Market Road, Sector 82, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 92",
+        "Latitude":28.51,
+        "Longitude":77.095,
+        "Address":"Plot No. 104, Sector 92, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 92",
+        "Latitude":28.5025,
+        "Longitude":77.103,
+        "Address":"Main Market Road, Sector 92, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Sanjeevani Care Hospital, Sector 102",
+        "Latitude":28.514,
+        "Longitude":77.098,
+        "Address":"Plot No. 114, Sector 102, Gurugram, Haryana 122001"
+    },
+    {
+        "Hospital Name":"Mediserve Clinic & Hospital, Sector 102",
+        "Latitude":28.5066,
+        "Longitude":77.1058,
+        "Address":"Main Market Road, Sector 102, Gurugram, Haryana 122002"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 12",
+        "Latitude":28.57,
+        "Longitude":77.34,
+        "Address":"Block B, Sector 12, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 12",
+        "Latitude":28.581,
+        "Longitude":77.351,
+        "Address":"Market Complex, Sector 12, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 15",
+        "Latitude":28.573,
+        "Longitude":77.3425,
+        "Address":"Block B, Sector 15, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 15",
+        "Latitude":28.5838,
+        "Longitude":77.3541,
+        "Address":"Market Complex, Sector 15, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 22",
+        "Latitude":28.576,
+        "Longitude":77.345,
+        "Address":"Block B, Sector 22, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 22",
+        "Latitude":28.5866,
+        "Longitude":77.3572,
+        "Address":"Market Complex, Sector 22, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 30",
+        "Latitude":28.579,
+        "Longitude":77.3475,
+        "Address":"Block B, Sector 30, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 30",
+        "Latitude":28.5894,
+        "Longitude":77.3603,
+        "Address":"Market Complex, Sector 30, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 34",
+        "Latitude":28.582,
+        "Longitude":77.35,
+        "Address":"Block B, Sector 34, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 34",
+        "Latitude":28.5922,
+        "Longitude":77.3634,
+        "Address":"Market Complex, Sector 34, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 39",
+        "Latitude":28.585,
+        "Longitude":77.3525,
+        "Address":"Block B, Sector 39, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 39",
+        "Latitude":28.595,
+        "Longitude":77.3665,
+        "Address":"Market Complex, Sector 39, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 41",
+        "Latitude":28.588,
+        "Longitude":77.355,
+        "Address":"Block B, Sector 41, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 41",
+        "Latitude":28.5978,
+        "Longitude":77.3696,
+        "Address":"Market Complex, Sector 41, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 45",
+        "Latitude":28.591,
+        "Longitude":77.3575,
+        "Address":"Block B, Sector 45, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 45",
+        "Latitude":28.6006,
+        "Longitude":77.3727,
+        "Address":"Market Complex, Sector 45, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 50",
+        "Latitude":28.594,
+        "Longitude":77.36,
+        "Address":"Block B, Sector 50, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 50",
+        "Latitude":28.6034,
+        "Longitude":77.3758,
+        "Address":"Market Complex, Sector 50, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 52",
+        "Latitude":28.597,
+        "Longitude":77.3625,
+        "Address":"Block B, Sector 52, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 52",
+        "Latitude":28.6062,
+        "Longitude":77.3789,
+        "Address":"Market Complex, Sector 52, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 61",
+        "Latitude":28.6,
+        "Longitude":77.365,
+        "Address":"Block B, Sector 61, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 61",
+        "Latitude":28.609,
+        "Longitude":77.382,
+        "Address":"Market Complex, Sector 61, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 62",
+        "Latitude":28.603,
+        "Longitude":77.3675,
+        "Address":"Block B, Sector 62, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 62",
+        "Latitude":28.6118,
+        "Longitude":77.3851,
+        "Address":"Market Complex, Sector 62, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 71",
+        "Latitude":28.606,
+        "Longitude":77.37,
+        "Address":"Block B, Sector 71, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 71",
+        "Latitude":28.6146,
+        "Longitude":77.3882,
+        "Address":"Market Complex, Sector 71, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 73",
+        "Latitude":28.609,
+        "Longitude":77.3725,
+        "Address":"Block B, Sector 73, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 73",
+        "Latitude":28.6174,
+        "Longitude":77.3913,
+        "Address":"Market Complex, Sector 73, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 75",
+        "Latitude":28.612,
+        "Longitude":77.375,
+        "Address":"Block B, Sector 75, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 75",
+        "Latitude":28.6202,
+        "Longitude":77.3944,
+        "Address":"Market Complex, Sector 75, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 78",
+        "Latitude":28.615,
+        "Longitude":77.3775,
+        "Address":"Block B, Sector 78, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 78",
+        "Latitude":28.623,
+        "Longitude":77.3975,
+        "Address":"Market Complex, Sector 78, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 93",
+        "Latitude":28.618,
+        "Longitude":77.38,
+        "Address":"Block B, Sector 93, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 93",
+        "Latitude":28.6258,
+        "Longitude":77.4006,
+        "Address":"Market Complex, Sector 93, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 110",
+        "Latitude":28.621,
+        "Longitude":77.3825,
+        "Address":"Block B, Sector 110, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 110",
+        "Latitude":28.6286,
+        "Longitude":77.4037,
+        "Address":"Market Complex, Sector 110, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 121",
+        "Latitude":28.624,
+        "Longitude":77.385,
+        "Address":"Block B, Sector 121, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 121",
+        "Latitude":28.6314,
+        "Longitude":77.4068,
+        "Address":"Market Complex, Sector 121, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"Kailash Clinic & Nursing Home, Sector 135",
+        "Latitude":28.627,
+        "Longitude":77.3875,
+        "Address":"Block B, Sector 135, Noida, Uttar Pradesh 201301"
+    },
+    {
+        "Hospital Name":"Metro Healthcare Center, Sector 135",
+        "Latitude":28.6342,
+        "Longitude":77.4099,
+        "Address":"Market Complex, Sector 135, Noida, Uttar Pradesh 201303"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Rohini Sector 3",
+        "Latitude":28.7022,
+        "Longitude":77.118,
+        "Address":"Main Road, Near Metro Station, Rohini Sector 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Rohini Sector 3",
+        "Latitude":28.7037,
+        "Longitude":77.1168,
+        "Address":"Commercial Complex, Pocket 2, Rohini Sector 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Rohini Sector 9",
+        "Latitude":28.7115,
+        "Longitude":77.1245,
+        "Address":"Main Road, Near Metro Station, Rohini Sector 9, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Rohini Sector 9",
+        "Latitude":28.713,
+        "Longitude":77.1233,
+        "Address":"Commercial Complex, Pocket 2, Rohini Sector 9, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Rohini Sector 11",
+        "Latitude":28.723,
+        "Longitude":77.112,
+        "Address":"Main Road, Near Metro Station, Rohini Sector 11, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Rohini Sector 11",
+        "Latitude":28.7245,
+        "Longitude":77.1108,
+        "Address":"Commercial Complex, Pocket 2, Rohini Sector 11, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Rohini Sector 16",
+        "Latitude":28.739,
+        "Longitude":77.109,
+        "Address":"Main Road, Near Metro Station, Rohini Sector 16, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Rohini Sector 16",
+        "Latitude":28.7405,
+        "Longitude":77.1078,
+        "Address":"Commercial Complex, Pocket 2, Rohini Sector 16, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Dwarka Sector 10",
+        "Latitude":28.5812,
+        "Longitude":77.0592,
+        "Address":"Main Road, Near Metro Station, Dwarka Sector 10, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Dwarka Sector 10",
+        "Latitude":28.5827,
+        "Longitude":77.058,
+        "Address":"Commercial Complex, Pocket 2, Dwarka Sector 10, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Dwarka Sector 12",
+        "Latitude":28.5921,
+        "Longitude":77.0421,
+        "Address":"Main Road, Near Metro Station, Dwarka Sector 12, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Dwarka Sector 12",
+        "Latitude":28.5936,
+        "Longitude":77.0409,
+        "Address":"Commercial Complex, Pocket 2, Dwarka Sector 12, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Dwarka Sector 22",
+        "Latitude":28.5612,
+        "Longitude":77.0612,
+        "Address":"Main Road, Near Metro Station, Dwarka Sector 22, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Dwarka Sector 22",
+        "Latitude":28.5627,
+        "Longitude":77.06,
+        "Address":"Commercial Complex, Pocket 2, Dwarka Sector 22, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Dwarka Sector 19",
+        "Latitude":28.5742,
+        "Longitude":77.0512,
+        "Address":"Main Road, Near Metro Station, Dwarka Sector 19, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Dwarka Sector 19",
+        "Latitude":28.5757,
+        "Longitude":77.05,
+        "Address":"Commercial Complex, Pocket 2, Dwarka Sector 19, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Janakpuri Block B",
+        "Latitude":28.621,
+        "Longitude":77.079,
+        "Address":"Main Road, Near Metro Station, Janakpuri Block B, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Janakpuri Block B",
+        "Latitude":28.6225,
+        "Longitude":77.0778,
+        "Address":"Commercial Complex, Pocket 2, Janakpuri Block B, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Janakpuri Block C",
+        "Latitude":28.6145,
+        "Longitude":77.091,
+        "Address":"Main Road, Near Metro Station, Janakpuri Block C, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Janakpuri Block C",
+        "Latitude":28.616,
+        "Longitude":77.0898,
+        "Address":"Commercial Complex, Pocket 2, Janakpuri Block C, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Vikaspuri",
+        "Latitude":28.632,
+        "Longitude":77.072,
+        "Address":"Main Road, Near Metro Station, Vikaspuri, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Vikaspuri",
+        "Latitude":28.6335,
+        "Longitude":77.0708,
+        "Address":"Commercial Complex, Pocket 2, Vikaspuri, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Uttam Nagar",
+        "Latitude":28.6215,
+        "Longitude":77.0515,
+        "Address":"Main Road, Near Metro Station, Uttam Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Uttam Nagar",
+        "Latitude":28.623,
+        "Longitude":77.0503,
+        "Address":"Commercial Complex, Pocket 2, Uttam Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Tilak Nagar",
+        "Latitude":28.6355,
+        "Longitude":77.0965,
+        "Address":"Main Road, Near Metro Station, Tilak Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Tilak Nagar",
+        "Latitude":28.637,
+        "Longitude":77.0953,
+        "Address":"Commercial Complex, Pocket 2, Tilak Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Rajouri Garden",
+        "Latitude":28.6425,
+        "Longitude":77.1195,
+        "Address":"Main Road, Near Metro Station, Rajouri Garden, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Rajouri Garden",
+        "Latitude":28.644,
+        "Longitude":77.1183,
+        "Address":"Commercial Complex, Pocket 2, Rajouri Garden, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Kirti Nagar",
+        "Latitude":28.6512,
+        "Longitude":77.1312,
+        "Address":"Main Road, Near Metro Station, Kirti Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Kirti Nagar",
+        "Latitude":28.6527,
+        "Longitude":77.13,
+        "Address":"Commercial Complex, Pocket 2, Kirti Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Patel Nagar East",
+        "Latitude":28.648,
+        "Longitude":77.1645,
+        "Address":"Main Road, Near Metro Station, Patel Nagar East, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Patel Nagar East",
+        "Latitude":28.6495,
+        "Longitude":77.1633,
+        "Address":"Commercial Complex, Pocket 2, Patel Nagar East, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Karol Bagh",
+        "Latitude":28.6515,
+        "Longitude":77.1912,
+        "Address":"Main Road, Near Metro Station, Karol Bagh, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Karol Bagh",
+        "Latitude":28.653,
+        "Longitude":77.19,
+        "Address":"Commercial Complex, Pocket 2, Karol Bagh, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Pahar Ganj",
+        "Latitude":28.6412,
+        "Longitude":77.2145,
+        "Address":"Main Road, Near Metro Station, Pahar Ganj, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Pahar Ganj",
+        "Latitude":28.6427,
+        "Longitude":77.2133,
+        "Address":"Commercial Complex, Pocket 2, Pahar Ganj, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Darya Ganj",
+        "Latitude":28.6432,
+        "Longitude":77.2485,
+        "Address":"Main Road, Near Metro Station, Darya Ganj, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Darya Ganj",
+        "Latitude":28.6447,
+        "Longitude":77.2473,
+        "Address":"Commercial Complex, Pocket 2, Darya Ganj, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Chandni Chowk",
+        "Latitude":28.6562,
+        "Longitude":77.2312,
+        "Address":"Main Road, Near Metro Station, Chandni Chowk, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Chandni Chowk",
+        "Latitude":28.6577,
+        "Longitude":77.23,
+        "Address":"Commercial Complex, Pocket 2, Chandni Chowk, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Civil Lines",
+        "Latitude":28.678,
+        "Longitude":77.2245,
+        "Address":"Main Road, Near Metro Station, Civil Lines, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Civil Lines",
+        "Latitude":28.6795,
+        "Longitude":77.2233,
+        "Address":"Commercial Complex, Pocket 2, Civil Lines, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Ashok Vihar",
+        "Latitude":28.6945,
+        "Longitude":77.1725,
+        "Address":"Main Road, Near Metro Station, Ashok Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Ashok Vihar",
+        "Latitude":28.696,
+        "Longitude":77.1713,
+        "Address":"Commercial Complex, Pocket 2, Ashok Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Model Town",
+        "Latitude":28.7015,
+        "Longitude":77.1945,
+        "Address":"Main Road, Near Metro Station, Model Town, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Model Town",
+        "Latitude":28.703,
+        "Longitude":77.1933,
+        "Address":"Commercial Complex, Pocket 2, Model Town, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Kingsway Camp",
+        "Latitude":28.6912,
+        "Longitude":77.2085,
+        "Address":"Main Road, Near Metro Station, Kingsway Camp, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Kingsway Camp",
+        "Latitude":28.6927,
+        "Longitude":77.2073,
+        "Address":"Commercial Complex, Pocket 2, Kingsway Camp, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Kamla Nagar",
+        "Latitude":28.6812,
+        "Longitude":77.2012,
+        "Address":"Main Road, Near Metro Station, Kamla Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Kamla Nagar",
+        "Latitude":28.6827,
+        "Longitude":77.2,
+        "Address":"Commercial Complex, Pocket 2, Kamla Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Shakti Nagar",
+        "Latitude":28.6795,
+        "Longitude":77.1942,
+        "Address":"Main Road, Near Metro Station, Shakti Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Shakti Nagar",
+        "Latitude":28.681,
+        "Longitude":77.193,
+        "Address":"Commercial Complex, Pocket 2, Shakti Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Pitampura Pitampura",
+        "Latitude":28.6995,
+        "Longitude":77.1395,
+        "Address":"Main Road, Near Metro Station, Pitampura Pitampura, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Pitampura Pitampura",
+        "Latitude":28.701,
+        "Longitude":77.1383,
+        "Address":"Commercial Complex, Pocket 2, Pitampura Pitampura, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Shalimar Bagh Block CA",
+        "Latitude":28.7155,
+        "Longitude":77.1585,
+        "Address":"Main Road, Near Metro Station, Shalimar Bagh Block CA, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Shalimar Bagh Block CA",
+        "Latitude":28.717,
+        "Longitude":77.1573,
+        "Address":"Commercial Complex, Pocket 2, Shalimar Bagh Block CA, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Paschim Vihar Block B",
+        "Latitude":28.6695,
+        "Longitude":77.0995,
+        "Address":"Main Road, Near Metro Station, Paschim Vihar Block B, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Paschim Vihar Block B",
+        "Latitude":28.671,
+        "Longitude":77.0983,
+        "Address":"Commercial Complex, Pocket 2, Paschim Vihar Block B, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Meera Bagh",
+        "Latitude":28.6795,
+        "Longitude":77.1045,
+        "Address":"Main Road, Near Metro Station, Meera Bagh, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Meera Bagh",
+        "Latitude":28.681,
+        "Longitude":77.1033,
+        "Address":"Commercial Complex, Pocket 2, Meera Bagh, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Okhla Phase 1",
+        "Latitude":28.5292,
+        "Longitude":77.2815,
+        "Address":"Main Road, Near Metro Station, Okhla Phase 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Okhla Phase 1",
+        "Latitude":28.5307,
+        "Longitude":77.2803,
+        "Address":"Commercial Complex, Pocket 2, Okhla Phase 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Okhla Phase 3",
+        "Latitude":28.5412,
+        "Longitude":77.2715,
+        "Address":"Main Road, Near Metro Station, Okhla Phase 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Okhla Phase 3",
+        "Latitude":28.5427,
+        "Longitude":77.2703,
+        "Address":"Commercial Complex, Pocket 2, Okhla Phase 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Kalkaji",
+        "Latitude":28.5415,
+        "Longitude":77.2585,
+        "Address":"Main Road, Near Metro Station, Kalkaji, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Kalkaji",
+        "Latitude":28.543,
+        "Longitude":77.2573,
+        "Address":"Commercial Complex, Pocket 2, Kalkaji, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Govindpuri",
+        "Latitude":28.5392,
+        "Longitude":77.2645,
+        "Address":"Main Road, Near Metro Station, Govindpuri, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Govindpuri",
+        "Latitude":28.5407,
+        "Longitude":77.2633,
+        "Address":"Commercial Complex, Pocket 2, Govindpuri, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Lajpat Nagar 2",
+        "Latitude":28.5692,
+        "Longitude":77.2415,
+        "Address":"Main Road, Near Metro Station, Lajpat Nagar 2, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Lajpat Nagar 2",
+        "Latitude":28.5707,
+        "Longitude":77.2403,
+        "Address":"Commercial Complex, Pocket 2, Lajpat Nagar 2, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Lajpat Nagar 4",
+        "Latitude":28.5612,
+        "Longitude":77.2455,
+        "Address":"Main Road, Near Metro Station, Lajpat Nagar 4, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Lajpat Nagar 4",
+        "Latitude":28.5627,
+        "Longitude":77.2443,
+        "Address":"Commercial Complex, Pocket 2, Lajpat Nagar 4, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Greater Kailash 1",
+        "Latitude":28.5522,
+        "Longitude":77.2345,
+        "Address":"Main Road, Near Metro Station, Greater Kailash 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Greater Kailash 1",
+        "Latitude":28.5537,
+        "Longitude":77.2333,
+        "Address":"Commercial Complex, Pocket 2, Greater Kailash 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Greater Kailash 2",
+        "Latitude":28.5315,
+        "Longitude":77.2415,
+        "Address":"Main Road, Near Metro Station, Greater Kailash 2, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Greater Kailash 2",
+        "Latitude":28.533,
+        "Longitude":77.2403,
+        "Address":"Commercial Complex, Pocket 2, Greater Kailash 2, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Chittaranjan Park",
+        "Latitude":28.5385,
+        "Longitude":77.2495,
+        "Address":"Main Road, Near Metro Station, Chittaranjan Park, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Chittaranjan Park",
+        "Latitude":28.54,
+        "Longitude":77.2483,
+        "Address":"Commercial Complex, Pocket 2, Chittaranjan Park, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Alaknanda",
+        "Latitude":28.5285,
+        "Longitude":77.2515,
+        "Address":"Main Road, Near Metro Station, Alaknanda, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Alaknanda",
+        "Latitude":28.53,
+        "Longitude":77.2503,
+        "Address":"Commercial Complex, Pocket 2, Alaknanda, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Saket Block J",
+        "Latitude":28.5212,
+        "Longitude":77.2085,
+        "Address":"Main Road, Near Metro Station, Saket Block J, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Saket Block J",
+        "Latitude":28.5227,
+        "Longitude":77.2073,
+        "Address":"Commercial Complex, Pocket 2, Saket Block J, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Malviya Nagar",
+        "Latitude":28.5322,
+        "Longitude":77.2045,
+        "Address":"Main Road, Near Metro Station, Malviya Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Malviya Nagar",
+        "Latitude":28.5337,
+        "Longitude":77.2033,
+        "Address":"Commercial Complex, Pocket 2, Malviya Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Hauz Khas",
+        "Latitude":28.5422,
+        "Longitude":77.2055,
+        "Address":"Main Road, Near Metro Station, Hauz Khas, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Hauz Khas",
+        "Latitude":28.5437,
+        "Longitude":77.2043,
+        "Address":"Commercial Complex, Pocket 2, Hauz Khas, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Green Park",
+        "Latitude":28.5585,
+        "Longitude":77.2045,
+        "Address":"Main Road, Near Metro Station, Green Park, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Green Park",
+        "Latitude":28.56,
+        "Longitude":77.2033,
+        "Address":"Commercial Complex, Pocket 2, Green Park, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Safdarjung Enclave",
+        "Latitude":28.5615,
+        "Longitude":77.1945,
+        "Address":"Main Road, Near Metro Station, Safdarjung Enclave, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Safdarjung Enclave",
+        "Latitude":28.563,
+        "Longitude":77.1933,
+        "Address":"Commercial Complex, Pocket 2, Safdarjung Enclave, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Vasant Kunj Sector A",
+        "Latitude":28.5215,
+        "Longitude":77.1715,
+        "Address":"Main Road, Near Metro Station, Vasant Kunj Sector A, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Vasant Kunj Sector A",
+        "Latitude":28.523,
+        "Longitude":77.1703,
+        "Address":"Commercial Complex, Pocket 2, Vasant Kunj Sector A, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Vasant Kunj Sector D",
+        "Latitude":28.5145,
+        "Longitude":77.1612,
+        "Address":"Main Road, Near Metro Station, Vasant Kunj Sector D, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Vasant Kunj Sector D",
+        "Latitude":28.516,
+        "Longitude":77.16,
+        "Address":"Commercial Complex, Pocket 2, Vasant Kunj Sector D, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Vasant Vihar",
+        "Latitude":28.5612,
+        "Longitude":77.1645,
+        "Address":"Main Road, Near Metro Station, Vasant Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Vasant Vihar",
+        "Latitude":28.5627,
+        "Longitude":77.1633,
+        "Address":"Commercial Complex, Pocket 2, Vasant Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, R K Puram Sector 1",
+        "Latitude":28.5712,
+        "Longitude":77.1785,
+        "Address":"Main Road, Near Metro Station, R K Puram Sector 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, R K Puram Sector 1",
+        "Latitude":28.5727,
+        "Longitude":77.1773,
+        "Address":"Commercial Complex, Pocket 2, R K Puram Sector 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, R K Puram Sector 4",
+        "Latitude":28.5645,
+        "Longitude":77.1812,
+        "Address":"Main Road, Near Metro Station, R K Puram Sector 4, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, R K Puram Sector 4",
+        "Latitude":28.566,
+        "Longitude":77.18,
+        "Address":"Commercial Complex, Pocket 2, R K Puram Sector 4, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Munirka",
+        "Latitude":28.5545,
+        "Longitude":77.1712,
+        "Address":"Main Road, Near Metro Station, Munirka, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Munirka",
+        "Latitude":28.556,
+        "Longitude":77.17,
+        "Address":"Commercial Complex, Pocket 2, Munirka, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Sarojini Nagar",
+        "Latitude":28.5745,
+        "Longitude":77.2045,
+        "Address":"Main Road, Near Metro Station, Sarojini Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Sarojini Nagar",
+        "Latitude":28.576,
+        "Longitude":77.2033,
+        "Address":"Commercial Complex, Pocket 2, Sarojini Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Mayur Vihar Phase 1",
+        "Latitude":28.6145,
+        "Longitude":77.2985,
+        "Address":"Main Road, Near Metro Station, Mayur Vihar Phase 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Mayur Vihar Phase 1",
+        "Latitude":28.616,
+        "Longitude":77.2973,
+        "Address":"Commercial Complex, Pocket 2, Mayur Vihar Phase 1, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Mayur Vihar Phase 2",
+        "Latitude":28.6195,
+        "Longitude":77.3045,
+        "Address":"Main Road, Near Metro Station, Mayur Vihar Phase 2, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Mayur Vihar Phase 2",
+        "Latitude":28.621,
+        "Longitude":77.3033,
+        "Address":"Commercial Complex, Pocket 2, Mayur Vihar Phase 2, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Mayur Vihar Phase 3",
+        "Latitude":28.6012,
+        "Longitude":77.3245,
+        "Address":"Main Road, Near Metro Station, Mayur Vihar Phase 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Mayur Vihar Phase 3",
+        "Latitude":28.6027,
+        "Longitude":77.3233,
+        "Address":"Commercial Complex, Pocket 2, Mayur Vihar Phase 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Preet Vihar Block F",
+        "Latitude":28.6465,
+        "Longitude":77.2915,
+        "Address":"Main Road, Near Metro Station, Preet Vihar Block F, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Preet Vihar Block F",
+        "Latitude":28.648,
+        "Longitude":77.2903,
+        "Address":"Commercial Complex, Pocket 2, Preet Vihar Block F, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Laxmi Nagar",
+        "Latitude":28.6365,
+        "Longitude":77.2785,
+        "Address":"Main Road, Near Metro Station, Laxmi Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Laxmi Nagar",
+        "Latitude":28.638,
+        "Longitude":77.2773,
+        "Address":"Commercial Complex, Pocket 2, Laxmi Nagar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Nirman Vihar",
+        "Latitude":28.6395,
+        "Longitude":77.2845,
+        "Address":"Main Road, Near Metro Station, Nirman Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Nirman Vihar",
+        "Latitude":28.641,
+        "Longitude":77.2833,
+        "Address":"Commercial Complex, Pocket 2, Nirman Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Anand Vihar",
+        "Latitude":28.6485,
+        "Longitude":77.3145,
+        "Address":"Main Road, Near Metro Station, Anand Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Anand Vihar",
+        "Latitude":28.65,
+        "Longitude":77.3133,
+        "Address":"Commercial Complex, Pocket 2, Anand Vihar, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Shahdara Main",
+        "Latitude":28.6715,
+        "Longitude":77.2945,
+        "Address":"Main Road, Near Metro Station, Shahdara Main, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Shahdara Main",
+        "Latitude":28.673,
+        "Longitude":77.2933,
+        "Address":"Commercial Complex, Pocket 2, Shahdara Main, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Dilshad Garden Block B",
+        "Latitude":28.6815,
+        "Longitude":77.3245,
+        "Address":"Main Road, Near Metro Station, Dilshad Garden Block B, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Dilshad Garden Block B",
+        "Latitude":28.683,
+        "Longitude":77.3233,
+        "Address":"Commercial Complex, Pocket 2, Dilshad Garden Block B, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"City Healthcare Nursing Home, Geeta Colony Block 3",
+        "Latitude":28.6515,
+        "Longitude":77.2715,
+        "Address":"Main Road, Near Metro Station, Geeta Colony Block 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Apex Multi-Specialty Clinic, Geeta Colony Block 3",
+        "Latitude":28.653,
+        "Longitude":77.2703,
+        "Address":"Commercial Complex, Pocket 2, Geeta Colony Block 3, New Delhi, Delhi"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Indirapuram Niti Khand",
+        "Latitude":28.6415,
+        "Longitude":77.3712,
+        "Address":"Main Sector Road, Indirapuram Niti Khand, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Indirapuram Vaibhav Khand",
+        "Latitude":28.6325,
+        "Longitude":77.3812,
+        "Address":"Main Sector Road, Indirapuram Vaibhav Khand, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Vasundhara Sector 4",
+        "Latitude":28.6612,
+        "Longitude":77.3612,
+        "Address":"Main Sector Road, Vasundhara Sector 4, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Vasundhara Sector 12",
+        "Latitude":28.6545,
+        "Longitude":77.3545,
+        "Address":"Main Sector Road, Vasundhara Sector 12, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Vaishali Sector 3",
+        "Latitude":28.6485,
+        "Longitude":77.3412,
+        "Address":"Main Sector Road, Vaishali Sector 3, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Raj Nagar Extension",
+        "Latitude":28.6945,
+        "Longitude":77.4412,
+        "Address":"Main Sector Road, Raj Nagar Extension, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Kavi Nagar",
+        "Latitude":28.6712,
+        "Longitude":77.4312,
+        "Address":"Main Sector Road, Kavi Nagar, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Faridabad Sector 15",
+        "Latitude":28.4012,
+        "Longitude":77.3112,
+        "Address":"Main Sector Road, Faridabad Sector 15, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Faridabad Sector 16",
+        "Latitude":28.4095,
+        "Longitude":77.3185,
+        "Address":"Main Sector Road, Faridabad Sector 16, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Faridabad Sector 21",
+        "Latitude":28.4145,
+        "Longitude":77.2912,
+        "Address":"Main Sector Road, Faridabad Sector 21, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Faridabad Sector 37",
+        "Latitude":28.4612,
+        "Longitude":77.3012,
+        "Address":"Main Sector Road, Faridabad Sector 37, Delhi NCR"
+    },
+    {
+        "Hospital Name":"Regional Med Center, Ballabhgarh",
+        "Latitude":28.3312,
+        "Longitude":77.3212,
+        "Address":"Main Sector Road, Ballabhgarh, Delhi NCR"
+    }
+]
