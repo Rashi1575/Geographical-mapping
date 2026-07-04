@@ -16,31 +16,66 @@ import asyncio
 import json
 import random
 import math
-from datetime import datetime
+import os
+import bcrypt
+from datetime import datetime, timedelta
 from typing import Dict, Set, Optional
 
-from fastapi import FastAPI, WebSocket, WebSocketDisconnect, HTTPException
+from fastapi import FastAPI, WebSocket, WebSocketDisconnect, Depends, HTTPException, status
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from pydantic import BaseModel
 import uvicorn
+from dotenv import load_dotenv
+from jose import JWTError, jwt
+
+# 1. Load the secret variables from your .env file
+load_dotenv()
+SECRET_KEY = os.getenv("SECRET_KEY", "fallback-secret")
+ALGORITHM = "HS256"
+ACCESS_TOKEN_EXPIRE_MINUTES = 30
+
+# 2. Setup OAuth2 for Token handling
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/auth/login")
+
+# 3. Dummy Database for Users 
+users_db = {}
+
+# 4. Pydantic Models for Data Validation
+class UserCreate(BaseModel):
+    email: str
+    password: str
+    full_name: str
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str
+
+# 5. Helper Functions (Now using bcrypt natively to avoid the 72-byte/passlib bug)
+def verify_password(plain_password: str, hashed_password: str):
+    return bcrypt.checkpw(plain_password.encode('utf-8'), hashed_password.encode('utf-8'))
+
+def get_password_hash(password: str):
+    pwd_bytes = password.encode('utf-8')
+    salt = bcrypt.gensalt()
+    hashed_pwd = bcrypt.hashpw(pwd_bytes, salt)
+    return hashed_pwd.decode('utf-8')
+
+def create_access_token(data: dict, expires_delta: timedelta | None = None):
+    to_encode = data.copy()
+    expire = datetime.utcnow() + (expires_delta or timedelta(minutes=15))
+    to_encode.update({"exp": expire})
+    return jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
 
 # ─────────────────────────────────────────────
 #  App setup
 # ─────────────────────────────────────────────
 app = FastAPI(title="GIS Realtime Server", version="1.0.0")
-from fastapi.middleware.cors import CORSMiddleware
 
+# Cleaned up: Only one CORS middleware block needed
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # Allows all local ports to connect
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],           # tighten to your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -270,7 +305,133 @@ async def health():
         "hospitals_tracked": len(hospital_state),
     }
 
+# ─────────────────────────────────────────────
+#  AI Disease Detection Endpoint
+# ─────────────────────────────────────────────
+active_prediction_state = {
+    "predicted_disease": "None",
+    "target_specialty": "general",
+    "symptoms_analyzed": []
+}
 
+class SymptomAnalysisRequest(BaseModel):
+    symptom1: str
+    symptom2: str
+    symptom3: str
+
+@app.post("/api/healthcare/detect-disease")
+async def detect_disease_and_recommend(request: SymptomAnalysisRequest):
+    global active_prediction_state
+    
+    symptoms = [s.lower().strip() for s in [request.symptom1, request.symptom2, request.symptom3] if s.strip()]
+    
+    if not symptoms:
+        raise HTTPException(status_code=400, detail="At least one symptom must be provided.")
+    
+    # Rule engine matching logic acting as our core AI branch fallback
+    predicted_disease = "General Malaise"
+    recommended_specialty = "general"
+    
+    combined_text = " ".join(symptoms)
+    if any(k in combined_text for k in {"chest pain", "heart", "palpitations", "breathing issue"}):
+        predicted_disease = "Acute Cardiovascular Distress"
+        recommended_specialty = "cardio"
+    elif any(k in combined_text for k in {"headache", "dizziness", "seizure", "numbness"}):
+        predicted_disease = "Neurological Irritation Indicator"
+        recommended_specialty = "neuro"
+    elif any(k in combined_text for k in {"fracture", "bone", "joint pain", "back injury"}):
+        predicted_disease = "Musculoskeletal Trauma / Fracture"
+        recommended_specialty = "ortho"
+    elif any(k in combined_text for k in {"child fever", "pediatric", "infant rash"}):
+        predicted_disease = "Pediatric Inflammatory Condition"
+        recommended_specialty = "pedia"
+    elif "fever" in combined_text or "cough" in combined_text:
+        predicted_disease = "Acute Respiratory / Viral Infection"
+        recommended_specialty = "general"
+
+    active_prediction_state = {
+        "predicted_disease": predicted_disease,
+        "target_specialty": recommended_specialty,
+        "symptoms_analyzed": symptoms
+    }
+
+    all_hospitals = list(hospital_state.values())
+    recommendations = [
+        h for h in all_hospitals 
+        if h.get("emergency_open") == True and h.get("available_beds", 0) > 0
+    ]
+
+    return {
+        "status": "success",
+        "analysis": active_prediction_state,
+        "recommended_facilities": recommendations
+    }
+
+@app.get("/api/healthcare/current-prediction")
+async def get_current_prediction():
+    return active_prediction_state
+
+# ─────────────────────────────────────────────
+#  Authentication Endpoints
+# ─────────────────────────────────────────────
+@app.post("/api/auth/signup")
+async def create_user(user: UserCreate):
+    if user.email in users_db:
+        raise HTTPException(status_code=400, detail="Email already registered")
+    
+    hashed_password = get_password_hash(user.password)
+    
+    users_db[user.email] = {
+        "email": user.email,
+        "full_name": user.full_name,
+        "hashed_password": hashed_password
+    }
+    return {"status": "success", "message": "Account created successfully!", "email": user.email}
+
+@app.post("/api/auth/login", response_model=Token)
+async def login(form_data: OAuth2PasswordRequestForm = Depends()):
+    user = users_db.get(form_data.username) 
+    if not user:
+        raise HTTPException(status_code=400, detail="Incorrect email or password")
+    
+    if not verify_password(form_data.password, user["hashed_password"]):
+        raise HTTPException(status_code=400, detail="Incorrect email or password")
+    
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    access_token = create_access_token(
+        data={"sub": user["email"]}, expires_delta=access_token_expires
+    )
+    return {"access_token": access_token, "token_type": "bearer"}
+
+# Add this right below your @app.post("/api/auth/login") route
+
+async def get_current_user(token: str = Depends(oauth2_scheme)):
+    credentials_exception = HTTPException(
+        status_code=status.HTTP_401_UNAUTHORIZED,
+        detail="Could not validate credentials",
+        headers={"WWW-Authenticate": "Bearer"},
+    )
+    try:
+        # Decode the token to see who it belongs to
+        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])
+        email: str = payload.get("sub")
+        if email is None:
+            raise credentials_exception
+    except JWTError:
+        raise credentials_exception
+        
+    user = users_db.get(email)
+    if user is None:
+        raise credentials_exception
+    return user
+
+@app.get("/api/auth/me")
+async def read_users_me(current_user: dict = Depends(get_current_user)):
+    # Return the user profile (but NEVER send the password hash back!)
+    return {
+        "email": current_user["email"], 
+        "full_name": current_user["full_name"]
+    }
 # ─────────────────────────────────────────────
 #  Mock data simulator (dev/demo use only)
 #  Simulates 3 ambulances moving around Delhi
@@ -352,32 +513,6 @@ async def startup():
 # ─────────────────────────────────────────────
 def _now():
     return datetime.utcnow().isoformat() + "Z"
-
-
-# ─────────────────────────────────────────────
-#  MQTT Bridge (optional — for real ambulances)
-# ─────────────────────────────────────────────
-"""
-To use MQTT (e.g. for real ambulance IoT devices):
-
-pip install paho-mqtt
-
-import paho.mqtt.client as mqtt
-
-MQTT_BROKER = "localhost"
-MQTT_TOPIC  = "ambulances/+/location"
-
-def on_message(client, userdata, msg):
-    data = json.loads(msg.payload.decode())
-    # data should match AmbulanceLocation schema
-    asyncio.run(update_ambulance(AmbulanceLocation(**data)))
-
-mqtt_client = mqtt.Client()
-mqtt_client.on_message = on_message
-mqtt_client.connect(MQTT_BROKER, 1883, 60)
-mqtt_client.subscribe(MQTT_TOPIC)
-mqtt_client.loop_start()          # runs in background thread
-"""
 
 
 if __name__ == "__main__":

@@ -13,3 +13,4 @@ function LoginPage() {
     </AuthLayout>
   );
 }
+

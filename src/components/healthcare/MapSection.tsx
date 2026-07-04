@@ -88,6 +88,7 @@ function FlyToHospital({ hospital }: { hospital?: { lat: number; lng: number } }
 export function MapSection({
   height = "h-[460px]",
   selectedHospital,
+  userLocation: propUserLocation,
 }: {
   height?: string;
   selectedHospital?: {
@@ -95,24 +96,19 @@ export function MapSection({
     lng: number;
     name: string;
   };
+  userLocation?: [number, number] | null;
 }) {
-  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(propUserLocation || null);
   
   // --- ACTIVATE YOUR REAL-TIME SERVER CONNECTION ---
   const { ambulances } = useRealtimeUpdates();
 
+  // Update local state when prop changes
   useEffect(() => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setUserLocation([position.coords.latitude, position.coords.longitude]);
-        },
-        (error) => {
-          console.log("Location access denied:", error);
-        },
-      );
+    if (propUserLocation) {
+      setUserLocation(propUserLocation);
     }
-  }, []);
+  }, [propUserLocation]);
 
   useEffect(() => {
     // Ensure Leaflet recalculates size if the container mounts inside flex/grid layouts
