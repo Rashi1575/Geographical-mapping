@@ -1,469 +1,323 @@
-# 🏥 OHSL Healthcare AI Recommendation System
+#  **Geographical Mapping for Hospitals, Clinics & Mobile Medical Units**
 
-A machine learning-powered healthcare recommendation system that predicts diseases, assesses severity, recommends specialists, and suggests appropriate healthcare services based on patient symptoms.
+<p align="center">
 
-Developed as part of the **OHSL Internship Program**.
+# Smart Healthcare Mapping Platform
 
----
+### Connecting People with Healthcare Through Maps, AI & Telemedicine
 
-## 📌 Project Overview
+![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge)
+![Python](https://img.shields.io/badge/Backend-Python-3776AB?style=for-the-badge)
+![AI](https://img.shields.io/badge/AI-Healthcare%20Recommendation-success?style=for-the-badge)
+![PWA](https://img.shields.io/badge/PWA-Offline%20Ready-blue?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-Supported-2496ED?style=for-the-badge)
+![MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Healthcare access often begins with symptom identification and deciding the appropriate level of care.
-
-This project provides an intelligent recommendation engine that analyzes symptoms and predicts:
-
-* Disease
-* Severity Level
-* Recommended Specialist
-* Recommended Healthcare Service
-
-The system combines machine learning models with healthcare recommendation logic to assist users in identifying the most suitable healthcare pathway.
+</p>
 
 ---
 
-## 🚀 Features
+#  Overview
 
-### Disease Prediction
+Geographical Mapping for Hospitals, Clinics & Mobile Medical Units is a smart healthcare platform that combines interactive GIS mapping, healthcare facility discovery, AI-assisted healthcare recommendations, telemedicine support, emergency information and Progressive Web App (PWA) capabilities into a single application.
 
-Predicts likely diseases from symptom combinations.
+The repository contains the React frontend together with supporting services including an AI recommendation module, realtime communication server, signaling server, trained machine learning models, healthcare datasets and deployment configuration.
 
-```text
-Symptoms → Disease
+> **Note:** This repository represents a prototype/MVP demonstrating a modern smart healthcare mapping ecosystem.
+
+---
+
+# Preview
+
+<img width="633" height="337" alt="Screenshot 2026-07-04 071242" src="https://github.com/user-attachments/assets/022535af-2005-4cc0-9f57-17b60f58b819" />
+<img width="633" height="337" alt="Screenshot 2026-07-04 071405" src="https://github.com/user-attachments/assets/c98b4023-a1b5-4036-89f7-543e8f9ec9df" />
+<img width="633" height="337" alt="Screenshot 2026-07-04 071349" src="https://github.com/user-attachments/assets/05b738c4-42b4-4ebf-a7ec-9351d0dd3b19" />
+<img width="633" height="337" alt="Screenshot 2026-07-04 071335" src="https://github.com/user-attachments/assets/faf102d8-7e3f-4f9a-8d64-89cd2021420b" />
+
+---
+
+# Features
+
+## Interactive Healthcare Mapping
+
+- Interactive map interface
+- Healthcare facility visualization
+- Nearby healthcare discovery
+- User location support
+- Responsive mapping interface
+
+## AI Healthcare Recommendation Module
+
+- Disease prediction
+- Severity prediction
+- Specialist recommendation
+- Healthcare recommendation engine
+- Trained Machine Learning models
+- Healthcare datasets
+- Python recommendation backend
+
+## Authentication
+
+- Login
+- Signup
+- Forgot Password
+- Guest Mode
+
+## Healthcare Services
+
+- Live Map
+- Nearby Healthcare Facilities
+- Telemedicine
+- Emergency Information
+
+## Progressive Web App
+
+- Offline support
+- Service Worker
+- Manifest
+- Offline page
+
+## Supporting Services
+
+- Realtime Server
+- Signaling Server
+- Docker support
+- Railway deployment configuration
+
+---
+
+# Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript
+- HTML5
+- CSS
+
+### Backend / AI
+
+- Python
+- Machine Learning
+- Pickle Models
+
+### Data
+
+- Healthcare datasets
+- Trained ML models
+
+### Deployment
+
+- Docker Compose
+- Railway
+
+---
+
+# Architecture
+<img width="591" height="614" alt="Screenshot 2026-07-04 083348" src="https://github.com/user-attachments/assets/5b0f7611-3d79-4d0c-a897-883f0fc75643" />
+
+---
+
+#  AI Workflow
+
+```mermaid
+flowchart TD
+
+A[User Symptoms]
+
+--> B[Python AI Module]
+
+--> C[Data Processing]
+
+--> D[Machine Learning Model]
+
+--> E[Disease Prediction]
+
+E --> F[Severity Prediction]
+
+F --> G[Specialist Recommendation]
+
+G --> H[Healthcare Recommendation]
 ```
 
 ---
 
-### Severity Assessment
-
-Classifies cases into:
-
-* Low
-* Moderate
-* Serious
-* Emergency
+#  Project Structure
 
 ```text
-Symptoms → Severity
-```
+Geographical-mapping/
 
----
-
-### Specialist Recommendation
-
-Recommends the most appropriate healthcare specialist.
-
-Examples:
-
-* Cardiologist
-* Dermatologist
-* Pulmonologist
-* Neurologist
-* Gastroenterologist
-
-```text
-Symptoms → Specialist
-```
-
----
-
-### Service Recommendation
-
-Maps severity levels to healthcare services.
-
-| Severity  | Service        |
-| --------- | -------------- |
-| Low       | Pharmacy       |
-| Moderate  | Telemedicine   |
-| Serious   | Clinic         |
-| Emergency | Emergency Care |
-
----
-
-### Healthcare Recommendation Engine
-
-Combines all model outputs into a single recommendation.
-
-Example:
-
-```json
-{
-  "disease": "Bronchial Asthma",
-  "severity": "Emergency",
-  "specialist": "Pulmonologist",
-  "service": "Emergency Care"
-}
-```
-
----
-
-# 🏗 System Architecture
-
-```text
-User Symptoms
-      │
-      ▼
-──────────────────────────
- Disease Prediction Model
- Severity Prediction Model
- Specialist Recommendation Model
-──────────────────────────
-      │
-      ▼
-Recommendation Engine
-      │
-      ▼
-Service Recommendation
-      │
-      ▼
-Final Healthcare Guidance
-```
-
----
-
-# 📂 Repository Structure
-
-```text
-OHSL/
-│
-├── app/
-│   └── main.py
-│
-├── data/
-│   ├── dataset.csv
-│   ├── Symptom-severity.csv
-│   ├── symptom_Description.csv
-│   └── symptom_precaution.csv
-│
-├── models/
-│   ├── disease_model.pkl
-│   ├── specialist_model.pkl
-│   ├── severity_model.pkl
-│   └── severity_tfidf.pkl
-│
-├── notebooks/
-│   └── OSHL_ML_MODEL.ipynb
-│
 ├── src/
-│   ├── config.py
-│   ├── data_preprocessing.py
-│   ├── recommendation_engine.py
-│   ├── train_disease.py
-│   ├── train_specialist.py
-│   └── train_severity.py
-│
+├── public/
+├── app/
+├── data/
+├── models/
+├── notebooks/
+├── realtime-server/
+├── signaling/
 ├── tests/
-│   ├── test_preprocessing.py
-│   └── test_recommendation.py
-│
+├── main.py
 ├── requirements.txt
+├── package.json
+├── docker-compose.yml
+├── railway.json
+├── .env.example
 └── README.md
 ```
 
 ---
 
-# 📊 Dataset Information
+# ⚙️ Local Setup
 
-The project uses four healthcare datasets:
+## Prerequisites
 
-### dataset.csv
-
-Contains diseases and associated symptoms.
-
-### Symptom-severity.csv
-
-Contains symptom severity weights used for severity scoring.
-
-### symptom_Description.csv
-
-Provides descriptions of diseases.
-
-### symptom_precaution.csv
-
-Provides recommended precautions for diseases.
+- Node.js
+- npm
+- Python 3.10+
+- Git (optional)
 
 ---
-
-# 🤖 Machine Learning Models
-
-## 1. Disease Prediction Model
-
-**Task**
-
-```text
-Symptoms → Disease
-```
-
-**Algorithm**
-
-* TF-IDF Vectorization
-* Logistic Regression
-
-**Evaluation**
-
-* Stratified 5-Fold Cross Validation
-
-**Accuracy**
-
-```text
-99.67%
-```
-
----
-
-## 2. Specialist Recommendation Model
-
-**Task**
-
-```text
-Symptoms → Specialist
-```
-
-**Algorithm**
-
-* TF-IDF Vectorization
-* Logistic Regression
-
-**Evaluation**
-
-* Stratified 5-Fold Cross Validation
-
-**Accuracy**
-
-```text
-98.35%
-```
-
----
-
-## 3. Severity Prediction Model
-
-**Task**
-
-```text
-Symptoms → Severity
-```
-
-**Algorithm**
-
-* TF-IDF Vectorization
-* Logistic Regression
-
-**Evaluation**
-
-* Stratified Train/Test Split
-
-**Accuracy**
-
-```text
-83.61%
-```
-
----
-
-# ⚙️ Installation
 
 ## Clone Repository
 
 ```bash
-git clone <repository-url>
-cd OHSL
+git clone https://github.com/Rashi1575/Geographical-mapping.git
+
+cd Geographical-mapping
 ```
 
 ---
 
-## Create Virtual Environment
-
-### Windows
+## Install Frontend
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate
+npm install
 ```
 
-### Linux / Mac
+Run
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
 ```
 
 ---
 
-## Install Dependencies
+## Configure Python
+
+Create virtual environment
+
+```bash
+python -m venv venv
+```
+
+Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Install requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-# 🏋️ Training Models
-
-## Train Disease Model
+Run
 
 ```bash
-python -m src.train_disease
+python main.py
 ```
 
----
-
-## Train Specialist Model
+or
 
 ```bash
-python -m src.train_specialist
+python app/main.py
 ```
 
 ---
 
-## Train Severity Model
+## Environment Variables
+
+Copy
+
+```
+.env.example
+```
+
+to
+
+```
+.env
+```
+
+Configure values as required.
+
+---
+
+## Other Services
+
+Realtime Server
 
 ```bash
-python -m src.train_severity
+cd realtime-server
+
+npm install
+
+npm start
 ```
 
----
-
-# 🔮 Using the Recommendation Engine
-
-Example:
-
-```python
-from src.recommendation_engine import RecommendationEngine
-
-engine = RecommendationEngine()
-
-result = engine.recommend(
-    "itching skin_rash nodal_skin_eruptions"
-)
-
-print(result)
-```
-
-Output:
-
-```python
-{
-    "disease": "Fungal infection",
-    "severity": "Low",
-    "specialist": "Dermatologist",
-    "service": "Pharmacy",
-    "description": "...",
-    "precautions": [...]
-}
-```
-
----
-
-# 🌐 Running the API
-
-Start FastAPI server:
+Signaling Server
 
 ```bash
-uvicorn app.main:app --reload
-```
+cd signaling
 
-Server:
+npm install
 
-```text
-http://127.0.0.1:8000
-```
-
----
-
-# 📡 API Endpoints
-
-## Health Check
-
-### GET
-
-```http
-/health
-```
-
-Response:
-
-```json
-{
-  "status": "healthy",
-  "models_loaded": true
-}
+npm start
 ```
 
 ---
 
-## Prediction Endpoint
+#  Components Included
 
-### POST
-
-```http
-/predict
-```
-
-Request:
-
-```json
-{
-  "symptoms": "itching skin_rash nodal_skin_eruptions"
-}
-```
-
-Response:
-
-```json
-{
-  "disease": "Fungal infection",
-  "severity": "Low",
-  "specialist": "Dermatologist",
-  "service": "Pharmacy",
-  "description": "...",
-  "precautions": [...]
-}
-```
+- React Frontend
+- Authentication
+- Guest Mode
+- Live Map
+- Nearby Healthcare Facilities
+- Telemedicine
+- Emergency Information
+- AI Recommendation Module
+- Machine Learning Models
+- Healthcare Datasets
+- Realtime Server
+- Progressive Web App Support
 
 ---
 
-# 🧪 Running Tests
+#  Future Improvements
 
-Run all tests:
-
-```bash
-pytest
-```
-
-Run specific test file:
-
-```bash
-pytest tests/test_recommendation.py
-```
+- Live appointment booking
+- Advanced routing
+- Enhanced AI models
 
 ---
 
-# 🔬 Future Enhancements
-
-* GIS-Based Healthcare Facility Recommendation
-* Hospital Ranking System
-* Route Optimization with OSRM
-* Real-Time Ambulance Tracking
-* Telemedicine Integration
-* Priority Scoring Engine
-* Clinical Safety Rule Layer
-* Multilingual Symptom Input
-* Explainable AI Recommendations
-
 ---
 
-# 👥 Contributors
+#  Author
 
-OHSL Internship Team
+**Rashi Singh**
 
-AI/ML Module:
 
-* Uzair Sabir
-* Sreyanka Sarkar
-
----
-
-# 📄 License
+#  License
 
 This project was developed for educational, research, and internship purposes.
 
