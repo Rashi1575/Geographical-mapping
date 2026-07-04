@@ -7,24 +7,15 @@ import {
   AlertTriangle,
   ChevronLeft,
   ChevronRight,
-  Video, 
 } from "lucide-react";
 import { useShell } from "./ShellContext";
 
-// --- CHANGED 'as const' TO A TYPE THAT ALLOWS LOOSE STRING ROUTES ---
-type SidebarItem = {
-  readonly icon: React.ComponentType<any>;
-  readonly label: string;
-  readonly to: string; // Allows loose strings alongside strict routes
-};
-
-const items: readonly SidebarItem[] = [
+const items = [
   { icon: Home, label: "Home", to: "/" },
   { icon: Map, label: "Live Map", to: "/live-map" },
   { icon: Navigation, label: "Nearby Facilities", to: "/nearby-facilities" },
   { icon: AlertTriangle, label: "Emergency Info", to: "/emergency-info" },
-  { icon: Video, label: "Telemedicine", to: "/telemedicine" }, 
-];
+] as const;
 
 export function Sidebar() {
   const { collapsed, toggle } = useShell();
@@ -67,7 +58,7 @@ export function Sidebar() {
           return (
             <Link
               key={item.to}
-              to={item.to as any} // Casted to 'any' to bypass strict TanStack router tree checks temporarily
+              to={item.to}
               title={item.label}
               className={`group relative w-full flex items-center gap-3 px-3 py-2 text-sm rounded-full transition-all duration-200 ${
                 active
@@ -111,4 +102,4 @@ export function Sidebar() {
       )}
     </aside>
   );
-}     
+}

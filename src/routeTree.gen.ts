@@ -9,7 +9,6 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as TelemedicineRouteImport } from './routes/telemedicine'
 import { Route as SignupRouteImport } from './routes/signup'
 import { Route as NearbyFacilitiesRouteImport } from './routes/nearby-facilities'
 import { Route as LoginRouteImport } from './routes/login'
@@ -18,11 +17,6 @@ import { Route as ForgotPasswordRouteImport } from './routes/forgot-password'
 import { Route as EmergencyInfoRouteImport } from './routes/emergency-info'
 import { Route as IndexRouteImport } from './routes/index'
 
-const TelemedicineRoute = TelemedicineRouteImport.update({
-  id: '/telemedicine',
-  path: '/telemedicine',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const SignupRoute = SignupRouteImport.update({
   id: '/signup',
   path: '/signup',
@@ -67,7 +61,6 @@ export interface FileRoutesByFullPath {
   '/login': typeof LoginRoute
   '/nearby-facilities': typeof NearbyFacilitiesRoute
   '/signup': typeof SignupRoute
-  '/telemedicine': typeof TelemedicineRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -77,7 +70,6 @@ export interface FileRoutesByTo {
   '/login': typeof LoginRoute
   '/nearby-facilities': typeof NearbyFacilitiesRoute
   '/signup': typeof SignupRoute
-  '/telemedicine': typeof TelemedicineRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -88,7 +80,6 @@ export interface FileRoutesById {
   '/login': typeof LoginRoute
   '/nearby-facilities': typeof NearbyFacilitiesRoute
   '/signup': typeof SignupRoute
-  '/telemedicine': typeof TelemedicineRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -100,7 +91,6 @@ export interface FileRouteTypes {
     | '/login'
     | '/nearby-facilities'
     | '/signup'
-    | '/telemedicine'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
@@ -110,7 +100,6 @@ export interface FileRouteTypes {
     | '/login'
     | '/nearby-facilities'
     | '/signup'
-    | '/telemedicine'
   id:
     | '__root__'
     | '/'
@@ -120,7 +109,6 @@ export interface FileRouteTypes {
     | '/login'
     | '/nearby-facilities'
     | '/signup'
-    | '/telemedicine'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -131,18 +119,10 @@ export interface RootRouteChildren {
   LoginRoute: typeof LoginRoute
   NearbyFacilitiesRoute: typeof NearbyFacilitiesRoute
   SignupRoute: typeof SignupRoute
-  TelemedicineRoute: typeof TelemedicineRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/telemedicine': {
-      id: '/telemedicine'
-      path: '/telemedicine'
-      fullPath: '/telemedicine'
-      preLoaderRoute: typeof TelemedicineRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/signup': {
       id: '/signup'
       path: '/signup'
@@ -203,7 +183,6 @@ const rootRouteChildren: RootRouteChildren = {
   LoginRoute: LoginRoute,
   NearbyFacilitiesRoute: NearbyFacilitiesRoute,
   SignupRoute: SignupRoute,
-  TelemedicineRoute: TelemedicineRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

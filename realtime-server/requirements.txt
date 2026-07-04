@@ -1,7 +1,0 @@
-fastapi
-uvicorn[standard]
-pydantic
-websockets
-paho-mqtt
-httpx
-python-dotenv
