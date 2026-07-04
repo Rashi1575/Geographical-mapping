@@ -3,6 +3,9 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
+// --- YOUR NEW IMPORT ---
+import { useRealtimeUpdates } from "../../hooks/useRealtimeUpdates";
+
 // Fix default marker icons (Leaflet expects assets at specific paths)
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
@@ -14,6 +17,14 @@ L.Icon.Default.mergeOptions({
   iconRetinaUrl: markerIcon2x,
   iconUrl: markerIcon,
   shadowUrl: markerShadow,
+});
+
+// --- NEW CUSTOM AMBULANCE ICON ---
+const ambulanceIcon = L.divIcon({
+  html: '<div style="font-size: 20px; background: white; border-radius: 50%; padding: 4px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.2); display: flex; align-items: center; justify-content: center; width: 34px; height: 34px;">🚑</div>',
+  className: "custom-ambulance-icon",
+  iconSize: [34, 34],
+  iconAnchor: [17, 17],
 });
 
 type Hospital = {
@@ -77,6 +88,7 @@ function FlyToHospital({ hospital }: { hospital?: { lat: number; lng: number } }
 export function MapSection({
   height = "h-[460px]",
   selectedHospital,
+  userLocation: propUserLocation,
 }: {
   height?: string;
   selectedHospital?: {
@@ -84,21 +96,19 @@ export function MapSection({
     lng: number;
     name: string;
   };
+  userLocation?: [number, number] | null;
 }) {
-  const [userLocation, setUserLocation] = useState<[number, number] | null>(null);
+  const [userLocation, setUserLocation] = useState<[number, number] | null>(propUserLocation || null);
+  
+  // --- ACTIVATE YOUR REAL-TIME SERVER CONNECTION ---
+  const { ambulances } = useRealtimeUpdates();
 
+  // Update local state when prop changes
   useEffect(() => {
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setUserLocation([position.coords.latitude, position.coords.longitude]);
-        },
-        (error) => {
-          console.log("Location access denied:", error);
-        },
-      );
+    if (propUserLocation) {
+      setUserLocation(propUserLocation);
     }
-  }, []);
+  }, [propUserLocation]);
 
   useEffect(() => {
     // Ensure Leaflet recalculates size if the container mounts inside flex/grid layouts
@@ -140,12 +150,27 @@ export function MapSection({
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
+          
+          {/* Render Stationary Hospitals */}
           {hospitals.map((h) => (
             <Marker key={h.id} position={h.position}>
               <Popup>
                 <div className="space-y-1">
                   <div className="font-semibold text-sm">{h.name}</div>
                   <div className="text-xs text-muted-foreground">{h.description}</div>
+                </div>
+              </Popup>
+            </Marker>
+          ))}
+
+          {/* Render Your Live Moving Ambulances */}
+          {ambulances.map((amb: any) => (
+            <Marker key={amb.ambulance_id} position={[amb.lat, amb.lng]} icon={ambulanceIcon}>
+              <Popup>
+                <div className="space-y-1">
+                  <div className="font-semibold text-sm text-foreground">Ambulance {amb.ambulance_id}</div>
+                  <div className="text-xs font-bold text-red-500 uppercase tracking-wider">{amb.status}</div>
+                  <div className="text-xs text-muted-foreground font-mono">Speed: {amb.speed_kmh} km/h</div>
                 </div>
               </Popup>
             </Marker>
